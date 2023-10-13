@@ -1,0 +1,985 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Speedster Rentals</title>
+    <link rel="stylesheet" href="C:/Users/USER/OneDrive/Documents/Speedster/static/styles/styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="C:/Users/USER/OneDrive/Documents/Speedster/static/js/script.js"></script>
+</head>
+
+<body style="margin-left: 40px;margin-right: 40px; ">
+    <!-- header -->
+    <div class="header bg-dark">
+        <div class="left-content">
+            <h5>S.Wheels</h5>
+            <p>A Car for Every Lifestyle</p>
+        </div>
+        <div class="right-content">
+
+            <div class="icons ">
+                <a href=""><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                <a href=""><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                <a href=""><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                <a href=""><i class="fa fa-whatsapp" aria-hidden="true"></i></a>
+            </div>
+            <p>summitwheels@gmail.com</p>
+        </div>
+    </div>
+    <!-- navigation bar -->
+
+    <nav class="navbar navbar-expand-lg mb-2  ">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="C:/Users/USER/Downloads/logo3-fotor-bg-remover-2023090891628.png" alt="Summit" width="30"
+                    height="40" style="margin-left: 10px;margin-right: 10px;">
+            </a>
+
+            <button class="navbar-toggler" id="navbar-toggler-button" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse " id="navbarSupportedContent">
+                <ul class="navbar-nav    me-5 mb-2 mb-lg-0">
+                    <li class="nav-item  ">
+                        <a class="nav-link active " aria-current="page" href="#home" data-target="home-content"
+                            id="home-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#about" data-target="about-content" id="about-link">About
+                            Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#inventory" data-target="inventory-content"
+                            id="about-link">Inventory
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#services" data-target="services-content"
+                            id="about-link">Services
+                        </a>
+                    </li>
+
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active " href="#contact" data-target="contact-content"
+                            id="contact-link">Contact
+                            Us</a>
+                    </li>
+                </ul>
+                <!-- search -->
+                <form class="d-flex ms-auto me-1" role="search">
+                    <input class="form-control " type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <!-- carousel -->
+    <div class="content home-content" id="home-content">
+        <div class="container">
+            <div id="carouselExampleCaptions" class="carousel slide">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1" style="background-color: #000000;"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                        aria-label="Slide 2" style="background-color: #000000;"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                        aria-label="Slide 3" style="background-color: #000000;"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"
+                        aria-label="Slide 4" style="background-color: #000000;"></button>
+                </div>
+                <div class="carousel-inner">
+
+                    <div class="carousel-item active">
+                        <img src="C:/Users/USER/OneDrive/Documents/Speedster/static/img/BMW M4 Coupe Competition.jpg"
+                            class="d-block w-100 custom-carousel-image" alt="volkswagenpolo">
+
+                        <div class="carousel-caption d-none d-md-block custom-caption">
+                            <h5>Embark on a journey of luxury, and style with our cars </h5>
+                            <h5>Let us help you get your next car!</h5>
+                            <h4 style="margin-top: 40px;">#DriveInStyle</h4>
+
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="C:/Users/USER/OneDrive/Documents/Speedster/static/img/BMW 5 Series.jpg"
+                            class="d-block w-100 custom-carousel-image" alt="fordfigo">
+                        <div class="carousel-caption d-none d-md-block custom-caption">
+                            <h5>Embark on a journey of luxury, and style with our cars </h5>
+                            <h5>Let us help you get your next car!</h5>
+                            <h4 style="margin-top: 40px;">#DriveInStyle</h4>
+
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="C:/Users/USER/OneDrive/Documents/Speedster/static/img/M550i Xdrive 2023.jpg"
+                            class="d-block w-100 custom-carousel-image " alt="mazdademio">
+                        <div class="carousel-caption d-none d-md-block custom-caption">
+                            <h5>Embark on a journey of luxury, and style with our cars </h5>
+                            <h5>Let us help you get your next car!</h5>
+                            <h4 style="margin-top: 40px;">#DriveInStyle</h4>
+
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" style="background-color: black;" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" style="background-color: black;" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+
+
+        <!-- div after caroussel -->
+        <div class="explained" style="margin: 60px;">
+            <h4 style="margin: 20px;">Experience Ultimate Driving with Our BMW Collection</h4>
+            <p>At Summit Wheels, we offer an exceptional range of BMW vehicles designed to elevate your driving
+                experience.
+                Explore our collection and discover the perfect BMW for your lifestyle</p>
+        </div>
+        <!-- new Arrivals -->
+
+        <div class="newArrivals">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4 col-md-6 col-sm-12  d-flex align-items-center justify-content-center">
+                        <div class="card">
+                            <img src="C:/Users/USER/OneDrive/Documents/Speedster/static/img/icons8-car-64.png"
+                                class="card-img-top" alt="Inventory">
+                            <div class="card-body">
+                                <h5 class="card-title">Inventory</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk of the card's content.</p>
+                                <button class="btn btn-light myButton" data-target="inventory-content">Browse</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 col-sm-12  d-flex align-items-center justify-content-center">
+                        <div class="card">
+                            <img src="C:/Users/USER/OneDrive/Documents/Speedster/static/img/icons8-warehouse-64.png"
+                                class="card-img-top" alt="Special Offers">
+                            <div class="card-body">
+                                <h5 class="card-title">Special Offers</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk of the card's content.</p>
+                                <button class="btn btn-light myButton" data-target="inventory-content">Browse</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 col-sm-12  d-flex align-items-center justify-content-center">
+                        <div class="card">
+                            <img src="C:/Users/USER/OneDrive/Documents/Speedster/static/img/icons8-setting-80.png"
+                                class="card-img-top" alt="Services">
+                            <div class="card-body">
+                                <h5 class="card-title">Services</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk of the card's content.</p>
+                                <button class="btn btn-light myButton" data-target="services-content">Browse</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- testimonials -->
+        <div class="testimonials">
+            <h4 style="text-align: left;margin-left: 100px;">Coming Soon</h4>
+
+            <div class="testimonialsCards">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-4 col-md-6 col-sm-12  d-flex align-items-center justify-content-center">
+                            <div class="card">
+                                <img src="C:/Users/USER/OneDrive/Documents/Speedster/static/img/bmwcard1.jpg"
+                                    class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Card title</h5>
+                                    <p class="card-text">Some quick example text to build on the card title and make up
+                                        the bulk of
+                                        the
+                                        card's content.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-12  d-flex align-items-center justify-content-center">
+                            <div class="card">
+                                <img src="C:/Users/USER/OneDrive/Documents/Speedster/static/img/bmwcard1.jpg"
+                                    class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Card title</h5>
+                                    <p class="card-text">Some quick example text to build on the card title and make up
+                                        the bulk of
+                                        the
+                                        card's content.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-md-6 col-sm-12  d-flex align-items-center justify-content-center">
+                            <div class="card">
+                                <img src="C:/Users/USER/OneDrive/Documents/Speedster/static/img/bmwcard1.jpg"
+                                    class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Card title</h5>
+                                    <p class="card-text">Some quick example text to build on the card title and make up
+                                        the bulk of
+                                        the
+                                        card's content.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="exploreMore">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6 ">
+                            <h5>Certified Pre-Owned MWs</h5>
+                            <p>Discover Quality and Savings with Our Certified Pre-Owned BMWs!</p>
+                        </div>
+                        <div class="col-md-6 ">
+                            <button type="button" style="margin-left: 420px;">Explore More</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+
+    <div class="content about-content" id="about-content">
+        <div class="aboutus">
+            <h4>About Summit Wheels</h4>
+            <p style=" margin-left: 20px;
+            margin-right: 20px;">Welcome to Summit Wheels, your premier destination for exceptional BMW vehicles.
+                Summit
+                Wheels was
+                founded in 1975 with a singular vision—to provide automotive enthusiasts
+                in our
+                community with access to the pinnacle of automotive engineering: BMW. Since our inception,
+                we have been
+                committed to delivering excellence in every aspect of our business.
+                <br>
+                Over the years, Summit Wheels has grown from a passion-driven venture into a reputable BMW
+                dealership
+                known for its unwavering dedication to quality, service, and customer satisfaction. Our
+                journey has been
+                marked by continuous expansion, innovation, and a deepening connection with our valued
+                customers.
+                <br>
+                At Summit Wheels, we are
+                assionate about delivering the ultimate driving experience to our customers. With a deep
+                appreciation
+                for
+                BMW's legacy of innovation, performance, and luxury, we offer a handpicked selection of the
+                finest BMW
+                cars
+                that blend cutting-edge technology with timeless design.
+            </p>
+
+            <h4>Our Commitment</h4>
+            <div class="commitment">
+                <div class="container">
+                    <div class="row">
+
+                        <div class="col-lg-4 col-md-6 col-sm-12 d-flex align-items-center justify-content-center">
+                            <div class="card" style="width: 20rem;height: 250px;">
+                                <div class="card-body">
+                                    <h5 class="card-title" style="text-align: center;">Quality</h5>
+                                    <p class="card-text"> We believe in the quality and craftsmanship that
+                                        BMW
+                                        stands
+                                        for. Every BMW
+                                        car
+                                        in our inventory undergoes rigorous inspections to ensure it meets
+                                        the
+                                        highest
+                                        standards of
+                                        excellence.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-12 d-flex align-items-center justify-content-center">
+                            <div class="card" style="width: 20rem; ;height: 250px;">
+                                <div class="card-body">
+                                    <h5 class="card-title" style="text-align: center;">Expertise</h5>
+                                    <p class="card-text"> Our team of automotive experts is dedicated to
+                                        helping
+                                        you
+                                        find the
+                                        perfect
+                                        BMW. We are here to
+                                        answer
+                                        your
+                                        questions and
+                                        provide expert guidance throughout your car-buying journey</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-12 d-flex align-items-center justify-content-center">
+                            <div class="card" style="width: 20rem ;height: 250px;">
+                                <div class="card-body">
+                                    <h5 class="card-title" style="text-align: center;">Customer Satisfaction
+                                    </h5>
+                                    <p class="card-text"> Your satisfaction is our top priority. We strive
+                                        to
+                                        provide a
+                                        seamless and
+                                        enjoyable car-buying experience, from browsing our inventory to
+                                        driving
+                                        off in
+                                        your dream
+                                        BMW.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <h4>Why Choose Us</h4>
+            <p style=" margin-left: 20px;
+            margin-right: 20px;">When you choose Summit Wheels, you're choosing:</p>
+            <ul>
+                <li> <strong> A Trusted Legacy:</strong> With years of experience and a strong reputation,
+                    we have
+                    become a trusted name in
+                    the automotive industry.</li>
+                <li><strong>Passionate Experts:</strong> Our knowledgeable staff shares your passion for BMW
+                    vehicles
+                    and is committed to
+                    helping you find the BMW of your dreams.</li>
+                <li><strong>Wide Range of Options:</strong> Explore a diverse selection of BMW models, from
+                    luxury
+                    sedans to powerful
+                    sports cars and versatile SUVs, all designed to elevate your driving experience.</li>
+                <li><strong>Service Excellence: </strong>Enjoy peace of mind knowing that your BMW will
+                    receive
+                    top-notch service and
+                    maintenance from our skilled technicians.</li>
+                <li><strong>Community Values:</strong> By choosing Summit Wheels, you support a dealership
+                    that gives
+                    back to the
+                    community, reinforcing our commitment to making a positive impact.</li>
+            </ul>
+            <br>
+            <p style=" margin-left: 20px;
+            margin-right: 20px;">
+                Whether you're in search of a sleek BMW sedan, a versatile SUV, or a powerful sports car,
+                Summit Wheels
+                has
+                the right vehicle to elevate your driving adventure. We invite you to visit our showroom and
+                experience
+                the excellence that defines Summit Wheels. Join us on your BMW journey, where passion meets
+                performance,
+                and where your automotive dreams become a reality.
+            </p>
+            <div style="margin-top: 20px;margin-bottom: 20px; padding:20px; text-align: center; font-style: oblique;">
+                <strong> We look forward
+                    to
+                    helping
+                    you find the BMW of your dreams.</strong>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="content inventory-content" id="inventory-content">
+        <div class="inventory">
+            <h4>Inventory</h4>
+            <p style="margin-left: 20px;
+            margin-right: 20px;">Explore our handpicked selection of exceptional BMW vehicles, each representing the
+                pinnacle of automotive engineering and luxury. Whether you're in search of a sleek sedan, a versatile
+                SUV, or a high-performance sports car, our inventory is carefully curated to offer you a range of
+                choices that cater to various preferences and driving needs.</p>
+            <div class="inventoryCards">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-4 col-md-6 col-sm-12  d-flex align-items-center justify-content-center">
+                            <div class="card">
+                                <img src="C:/Users/USER/OneDrive/Documents/Speedster/static/img/2021-bmw-540i-xdrive-370-removebg-preview.png"
+                                    class="card-img-top" alt="Services">
+                                <div class="card-body">
+                                    <h5 class="card-title">2021 BMW 540i ZDRIVE 370</h5>
+                                    <p class="card-text">Some quick example text to build on the card title</p>
+                                    <button class="btn btn-light myButton"
+                                        data-target="services-content">Browse</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-12  d-flex align-items-center justify-content-center">
+                            <div class="card">
+                                <img src="C:/Users/USER/OneDrive/Documents/Speedster/static/img/2023-bmw-m2-zandvoort-blue-13-removebg-preview.png"
+                                    class="card-img-top" alt="Services">
+                                <div class="card-body">
+                                    <h5 class="card-title">2023 BMW M2 ZANDVOORT</h5>
+                                    <p class="card-text">Some quick example text to build on the card title</p>
+                                    <button class="btn btn-light myButton"
+                                        data-target="services-content">Browse</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-12  d-flex align-items-center justify-content-center">
+                            <div class="card">
+                                <img src="C:/Users/USER/OneDrive/Documents/Speedster/static/img/2023-BMW-M4-CSL-4-removebg-preview.png"
+                                    class="card-img-top" alt="Services">
+                                <div class="card-body">
+                                    <h5 class="card-title">2023 BMW M4 CSL 4</h5>
+                                    <p class="card-text">Some quick example text to build on the card title .</p>
+                                    <button class="btn btn-light myButton"
+                                        data-target="services-content">Browse</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-12  d-flex align-items-center justify-content-center">
+                            <div class="card">
+                                <img src="C:/Users/USER/OneDrive/Documents/Speedster/static/img/BMW_XM_Label_Red_2024-removebg-preview.png"
+                                    class="card-img-top" alt="Services">
+                                <div class="card-body">
+                                    <h5 class="card-title">BMW XM Label Red 2024</h5>
+                                    <p class="card-text">Some quick example text to build on the card title</p>
+                                    <button class="btn btn-light myButton"
+                                        data-target="services-content">Browse</button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-md-6 col-sm-12  d-flex align-items-center justify-content-center">
+                            <div class="card">
+                                <img src="C:/Users/USER/OneDrive/Documents/Speedster/static/img/BMW_i4_eDrive35_2023-removebg-preview.png"
+                                    class="card-img-top" alt="Services">
+                                <div class="card-body">
+                                    <h5 class="card-title">BMW i4 eDrive35 2023</h5>
+                                    <p class="card-text">Some quick example text to build on the card title.</p>
+                                    <button class="btn btn-light myButton"
+                                        data-target="services-content">Browse</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-12  d-flex align-items-center justify-content-center">
+                            <div class="card">
+                                <img src="C:/Users/USER/OneDrive/Documents/Speedster/static/img/BMW_M4_Coupe_Competition-removebg-preview.png"
+                                    class="card-img-top" alt="Services">
+                                <div class="card-body">
+                                    <h5 class="card-title">BMW M4 Coupe Competition.</h5>
+                                    <p class="card-text">Some quick example text to build on the card title</p>
+                                    <button class="btn btn-light myButton"
+                                        data-target="services-content">Browse</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-12  d-flex align-items-center justify-content-center">
+                            <div class="card">
+                                <img src="C:/Users/USER/OneDrive/Documents/Speedster/static/img/M550i_Xdrive_2023-removebg-preview.png"
+                                    class="card-img-top" alt="Services">
+                                <div class="card-body">
+                                    <h5 class="card-title">BMW 5 Series</h5>
+                                    <p class="card-text">Some quick example text to build on the card title.</p>
+                                    <button class="btn btn-light myButton"
+                                        data-target="services-content">Browse</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-12  d-flex align-items-center justify-content-center">
+                            <div class="card">
+                                <img src="C:/Users/USER/OneDrive/Documents/Speedster/static/img/BMW_5_Series-removebg-preview.png"
+                                    class="card-img-top" alt="Services">
+                                <div class="card-body">
+                                    <h5 class="card-title">M550i Xdrive 2023</h5>
+                                    <p class="card-text">Some quick example text to build on the card title.</p>
+                                    <button class="btn btn-light myButton"
+                                        data-target="services-content">Browse</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-12  d-flex align-items-center justify-content-center">
+                            <div class="card">
+                                <img src="C:/Users/USER/OneDrive/Documents/Speedster/static/img/2021-bmw-540i-xdrive-370-removebg-preview.png"
+                                    class="card-img-top" alt="Services">
+                                <div class="card-body">
+                                    <h5 class="card-title">2021 BMW 540i ZDRIVE 370</h5>
+                                    <p class="card-text">Some quick example text to build on the card title.</p>
+                                    <button class="btn btn-light myButton"
+                                        data-target="services-content">Browse</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-12  d-flex align-items-center justify-content-center">
+                            <div class="card">
+                                <img src="C:/Users/USER/OneDrive/Documents/Speedster/static/img/2021-bmw-540i-xdrive-370-removebg-preview.png"
+                                    class="card-img-top" alt="Services">
+                                <div class="card-body">
+                                    <h5 class="card-title">2021 BMW 540i ZDRIVE 370</h5>
+                                    <p class="card-text">Some quick example text to build on the card title.</p>
+                                    <button class="btn btn-light myButton"
+                                        data-target="services-content">Browse</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-12  d-flex align-items-center justify-content-center">
+                            <div class="card">
+                                <img src="C:/Users/USER/OneDrive/Documents/Speedster/static/img/2023-bmw-m2-zandvoort-blue-13-removebg-preview.png"
+                                    class="card-img-top" alt="Services">
+                                <div class="card-body">
+                                    <h5 class="card-title">2023 BMW M2 ZANDVOORT</h5>
+                                    <p class="card-text">Some quick example text to build on the card title.</p>
+                                    <button class="btn btn-light myButton"
+                                        data-target="services-content">Browse</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-12  d-flex align-items-center justify-content-center">
+                            <div class="card">
+                                <img src="C:/Users/USER/OneDrive/Documents/Speedster/static/img/2023-BMW-M4-CSL-4-removebg-preview.png"
+                                    class="card-img-top" alt="Services">
+                                <div class="card-body">
+                                    <h5 class="card-title">2023 BMW M4 CSL 4</h5>
+                                    <p class="card-text">Some quick example text to build on the card title..</p>
+                                    <button class="btn btn-light myButton"
+                                        data-target="services-content">Browse</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-12  d-flex align-items-center justify-content-center">
+                            <div class="card">
+                                <img src="C:/Users/USER/OneDrive/Documents/Speedster/static/img/BMW_XM_Label_Red_2024-removebg-preview.png"
+                                    class="card-img-top" alt="Services">
+                                <div class="card-body">
+                                    <h5 class="card-title">BMW XM Label Red 2024</h5>
+                                    <p class="card-text">Some quick example text to build on the card title.</p>
+                                    <button class="btn btn-light myButton"
+                                        data-target="services-content">Browse</button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-md-6 col-sm-12  d-flex align-items-center justify-content-center">
+                            <div class="card">
+                                <img src="C:/Users/USER/OneDrive/Documents/Speedster/static/img/BMW_i4_eDrive35_2023-removebg-preview.png"
+                                    class="card-img-top" alt="Services">
+                                <div class="card-body">
+                                    <h5 class="card-title">BMW i4 eDrive35 2023</h5>
+                                    <p class="card-text">Some quick example text to build on the card title.</p>
+                                    <button class="btn btn-light myButton"
+                                        data-target="services-content">Browse</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-12  d-flex align-items-center justify-content-center">
+                            <div class="card">
+                                <img src="C:/Users/USER/OneDrive/Documents/Speedster/static/img/BMW_M4_Coupe_Competition-removebg-preview.png"
+                                    class="card-img-top" alt="Services">
+                                <div class="card-body">
+                                    <h5 class="card-title">BMW M4 Coupe Competition.</h5>
+                                    <p class="card-text">Some quick example text to build on the card title.</p>
+                                    <button class="btn btn-light myButton"
+                                        data-target="services-content">Browse</button>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+
+    <div class="content services-content" id="services-content">
+        <div class="services">
+            <h4 style="color: #f62425; margin: 20px;">
+                Our Services </h4>
+            <p style=" margin-left: 40px;
+            margin-right: 40px;">Welcome to S.Wheels, your premier destination for exclusive services tailored
+                specifically for BMW
+                owners. Our unwavering commitment to excellence ensures that your BMW receives the specialized care
+                it
+                deserves. From breathtaking customizations to meticulous maintenance and precision repairs, S.Wheels
+                is
+                your trusted partner in enhancing, maintaining, and restoring your BMW to perfection. Experience the
+                exceptional service your BMW deserves with S.Wheels.</p>
+            <div class="servicesCards">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-4 col-md-6 col-sm-12 mb-4  d-flex align-items-center justify-content-center">
+                            <div class="card">
+                                <img src="C:/Users/USER/OneDrive/Documents/Speedster/static/img/maintenance-removebg-preview.png"
+                                    class="card-img-top" alt="Maintenance">
+                                <div class="card-body">
+                                    <h5 class="card-title">Maintenance</h5>
+                                    <p class="card-text">Trust S.Wheels for essential BMW maintenance. Our certified
+                                        technicians use genuine BMW parts and advanced diagnostics for services
+                                        including oil changes, brake inspections, tire rotations, fluid checks, air
+                                        filter and spark plug replacements, and battery inspections.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-md-6 col-sm-12 mb-4  d-flex align-items-center justify-content-center">
+                            <div class="card">
+                                <img src="C:/Users/USER/OneDrive/Documents/Speedster/static/img/repairs-removebg-preview.png"
+                                    class="card-img-top" alt="Repairs">
+                                <div class="card-body">
+                                    <h5 class="card-title">Repairs</h5>
+                                    <p class="card-text">Count on us for expert BMW repairs. Our skilled technicians
+                                        specialize in diagnosing and fixing BMW issues, including engine, transmission,
+                                        brake, and electrical system repairs. We prioritize genuine BMW parts whenever
+                                        possible.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-md-6 col-sm-12 mb-4  d-flex align-items-center justify-content-center">
+                            <div class="card">
+                                <img src="C:/Users/USER/OneDrive/Documents/Speedster/static/img/customize.png"
+                                    class="card-img-top" alt="Customization">
+                                <div class="card-body">
+                                    <h5 class="card-title">Customization</h5>
+                                    <p class="card-text">Elevate your BMW's style with our customization services.
+                                        Explore options for wheels, exterior upgrades, interior enhancements, and more.
+                                        Tailor your BMW to match your unique preferences and style. Discover the
+                                        benefits of personalized customization at S.Wheels.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div>
+                <h4>Testimonials </h4>
+                <p style=" margin-left: 40px;
+            margin-right: 40px;">Here's what our valued customers have to say about their
+                    experiences with us. Read
+                    through these testimonials to learn how we've made a positive impact on their car experiences</p>
+                <div class="servicestestimonials">
+                    <div class="container">
+                        <div class="row">
+
+                            <div
+                                class="col-lg-4 col-md-6 col-sm-12 mb-4 d-flex align-items-center justify-content-center">
+                                <div class="card" style="width: 20rem;">
+                                    <img src="C:/Users/USER/OneDrive/Documents/Speedster/static/img/testimonial2.png"
+                                        class="card-img-top rounded-image" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Card title</h5>
+                                        <p class="card-text">Some quick example text to build on the card title and make
+                                            up
+                                            the bulk
+                                            of
+                                            the
+                                            card's content.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div
+                                class="col-lg-4 col-md-6 col-sm-12 mb-4 d-flex align-items-center justify-content-center">
+                                <div class="card" style="width: 20rem;">
+                                    <img src="C:/Users/USER/OneDrive/Documents/Speedster/static/img/testimonial1.png"
+                                        class="card-img-top rounded-image" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Card title</h5>
+                                        <p class="card-text">Some quick example text to build on the card title and make
+                                            up
+                                            the bulk
+                                            of
+                                            the
+                                            card's content.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div
+                                class="col-lg-4 col-md-6 col-sm-12 mb-4 d-flex align-items-center justify-content-center">
+                                <div class="card" style="width: 20rem;">
+                                    <img src="C:/Users/USER/OneDrive/Documents/Speedster/static/img/testimonial2.png"
+                                        class="card-img-top rounded-image" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Card title</h5>
+                                        <p class="card-text">Some quick example text to build on the card title and make
+                                            up
+                                            the bulk
+                                            of
+                                            the
+                                            card's content.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <p style=" margin-left: 40px;
+            margin-right: 40px;  color:white">
+                At S.Wheels, we take pride in being your trusted partner for all your BMW needs. Our unwavering
+                commitment to excellence, whether it's through customization, maintenance, or repairs, ensures that your
+                BMW experience remains exceptional. We are dedicated to exceeding your expectations, providing top-tier
+                service, and preserving the beauty and performance of your BMW. Discover the difference of S.Wheels,
+                where your BMW is not just a car; it's a masterpiece in motion. Contact us today to explore our
+                comprehensive range of services and take your BMW journey to the next level.
+            </p>
+
+            <div class="exploreMore">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6 ">
+                            <h5>Certified Pre-Owned MWs</h5>
+                            <p>Discover Quality and Savings with Our Certified Pre-Owned BMWs!</p>
+                        </div>
+                        <div class="col-md-6 ">
+                            <button type="button" style="margin-left: 430px;">Explore</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="content contact-content" id="contact-content">
+        <div class="contactus">
+            <div class="title">
+                <h2> Get in Touch</h2>
+            </div>
+            <div class="box">
+                <!-- form box -->
+                <div class="contact form">
+                    <h3>Send a message</h3>
+                    <form action="">
+                        <div class="formBox">
+                            <div class="row50">
+                                <div class="inputBox">
+                                    <span> First Name</span>
+                                    <input type="text" placeholder="Jane">
+                                </div>
+
+                                <div class="inputBox">
+                                    <span> Last Name</span>
+                                    <input type="text" placeholder="Doe">
+                                </div>
+                            </div>
+
+                            <div class="row50">
+                                <div class="inputBox">
+                                    <span> Email Address</span>
+                                    <input type="email" placeholder="janedoe@gmail.com">
+                                </div>
+
+                                <div class="inputBox">
+                                    <span> Phone Number</span>
+                                    <input type="text" placeholder="+254 712 345 678">
+                                </div>
+                            </div>
+
+                            <div class="row100">
+                                <div class="inputBox">
+                                    <span> Message</span>
+                                    <textarea placeholder="Write your message here"></textarea>
+                                </div>
+                            </div>
+                            <div class="row100">
+                                <div class="inputBox">
+                                    <input type="submit" value="Send">
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+
+                <!--  info box -->
+                <div class="contact info">
+                    <h3>Contact Info</h3>
+                    <div class="infoBox">
+                        <div>
+                            <span><i class="fa fa-map-marker" aria-hidden="true"></i></span>
+                            <p>
+                                Nairobi City Center <br>Tom Mboya Street CBD <br>Nairobi, Kenya
+                            </p>
+
+                        </div>
+                        <div>
+                            <span><i class="fa fa-envelope" aria-hidden="true"></i> </span>
+                            <a href="mailto:swheels@gmail.com">swheels@gmail.com</a>
+
+                        </div>
+                        <div>
+                            <span><i class="fa fa-phone-square" aria-hidden="true"></i></span>
+                            <a href="tel:+254712345678">+254712345678</a>
+
+                        </div>
+                        <!-- social media links -->
+                        <ul class="sci">
+                            <li><a href=""><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                            <li><a href=""><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                            <li><a href=""><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                            <li><a href=""><i class="fa fa-whatsapp" aria-hidden="true"></i></a></li>
+
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- map box -->
+                <div class="contact map">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.8149491938398!2d36.82331221045803!3d-1.284993635619117!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f116041c8127d%3A0x97121230126f6bd0!2sCBD!5e0!3m2!1sen!2ske!4v1695188059865!5m2!1sen!2ske"
+                        style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!-- PAGE WRAPPER -->
+
+
+    <!-- //footer -->
+    <div class="footer">
+
+        <div class="footer-content">
+
+            <div class="footer-section socials ">
+                <h5>Socials</h5>
+
+
+                <div class="iconsFooter">
+                    <div class="icon-inline" style="margin-top: 10px;">
+                        <a href="#"><i class="fa fa-facebook" aria-hidden="true" style="color: #1da1f2;"></i></a>
+                        <span>
+                            Are you on Social Media??
+                            <span class="red-text"> Get in touch with us Visit our Facebook</span>
+                        </span>
+                    </div>
+
+                    <div class="icon-inline" style="margin-top: 20px;">
+                        <a href="#"><i class="fa fa-instagram" aria-hidden="true"
+                                style="color: #bc2a8d;margin-top: 20px;"></i></a>
+                        <span>
+                            Are you on Social Media??
+                            <span class="red-text"> Get in touch with us Visit our Instagram</span>
+                        </span>
+                    </div>
+
+                    <div class="icon-inline" style="margin-top: 20px;">
+                        <a href="#"><i class="fa fa-twitter" aria-hidden="true"
+                                style="color: #1da1f2;margin-top: 20px;"></i></a>
+                        <span>
+                            Are you on Social Media??
+                            <span class="red-text"> Get in touch with us Visit our Twitter</span>
+                        </span>
+                    </div>
+
+                </div>
+
+
+
+            </div>
+            <div class="footer-section partners">
+                <h5>Partners</h5>
+                <div class="partner-item">
+                    <img src="C:/Users/USER/OneDrive/Documents/Speedster/static/img/icons8-man-logo-50.png"
+                        alt="Man Logo">
+                    <span>
+                        ManGo
+                        <span> Get in touch with us Visit our Website <br><br> Warface</span>
+                    </span>
+                </div>
+                <div class="partner-item">
+                    <img src="C:/Users/USER/OneDrive/Documents/Speedster/static/img/icons8-toyota-50.png"
+                        alt="Toyota Logo">
+                    <span>
+                        Toyota
+                        <span> Get in touch with us Visit our Website <br><br> Warface</span>
+                    </span>
+                </div>
+                <div class="partner-item">
+                    <img src="C:/Users/USER/OneDrive/Documents/Speedster/static/img/icons8-warface-logo-50.png"
+                        alt="Warface Logo">
+                    <span>
+                        Warface
+                        <span> Get in touch with us Visit our Website <br><br> Warface</span>
+                    </span>
+
+                </div>
+
+            </div>
+            <div class="footer-section aboutFooter ">
+                <h5>About Us</h5>
+                <p style="font-size: 10px; ">Summit
+                    Wheels was
+                    founded in 1975 with a singular vision—<br>to provide automotive enthusiasts
+                    in our
+                    community with access to <br> the pinnacle of automotive engineering: BMW. </p>
+            </div>
+            <div class="footer-section payment">
+                <h5>Payments</h5>
+                <img src="C:/Users/USER/OneDrive/Documents/Speedster/static/img/icons8-american-express-48.png"
+                    alt="Icon Description">
+                <img src="C:/Users/USER/OneDrive/Documents/Speedster/static/img/icons8-mastercard-logo-48.png"
+                    alt="Icon Description">
+                <img src="C:/Users/USER/OneDrive/Documents/Speedster/static/img/icons8-paypal-logo-48.png"
+                    alt="Icon Description">
+                <img src="C:/Users/USER/OneDrive/Documents/Speedster/static/img/icons8-visa-logo-48.png"
+                    alt="Icon Description">
+
+            </div>
+
+        </div>
+
+        <div class="footer-bottom">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-6 ">
+                        Copyright &copy;2023 | Designed by Michelle Ngei. All rights reserved
+                    </div>
+                    <div class="col-md-6 text-right" style="color:#f62425 ; text-align: right; padding-right: 80px;">
+                        <a href="#home-content" style="color:white">Home</a> | <a href="#about-content"
+                            style="color:white">About Us</a> | <a href="#inventory-content"
+                            style="color:white">Inventory</a> | <a href="#services-content"
+                            style="color:white">Services</a>
+                        | <a href="#contact-content" style="color:white">Contact Us</a>
+                    </div>
+                    <!-- Target Divisions -->
+                    <div id="home-link" class="hidden-division">Home content</div>
+                    <div id="about-link" class="hidden-division">About Us content</div>
+                    <div id="inventory-link" class="hidden-division">Inventory content</div>
+                    <div id="services-link" class="hidden-division">Services content</div>
+                    <div id="contact-link" class="hidden-division">Contact Us content</div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js"
+    integrity="sha384-Rx+T1VzGupg4BHQYs2gCW9It+akI2MM/mndMCy36UVfodzcJcF0GGLxZIzObiEfa"
+    crossorigin="anonymous"></script>
+
+</html>
